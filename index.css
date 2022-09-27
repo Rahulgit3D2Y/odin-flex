@@ -1,0 +1,59 @@
+
+.logo{
+    width: auto;
+    height: 50px;
+}
+.link1
+{
+ float:right;
+ padding: 10px;
+}
+.link2
+{
+    float: right;
+    padding: 10px;
+}
+.link3
+{
+    float: right;
+    padding: 10px;
+}
+.face{
+    float: right;
+    height: 200px;
+    width: 500px;
+}
+.container
+{
+    background-color:#1f2937;
+    
+}
+button
+{
+    background-color: orange;
+    border-radius: 10px;
+}
+.field1{
+    border: 0px;
+    background-color: #1f2937;
+    padding: 50px;
+}
+.field2 h1{
+    text-align: center;
+}
+div
+{
+    display: flex;
+    background-color: aquamarine;
+  justify-content:space-evenly;
+}
+.contain img{
+ width: 100px;
+ float: right;
+ height: auto;
+}
+.field3
+{
+    background-color: #e4e7ec;
+    text-align: center;
+}
