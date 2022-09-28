@@ -1,16 +1,18 @@
 body
 {
     background-color: #3b82f6;
-    background-image: url(1161810.jpg);
+    background-image: url( 1161890.jpg);
     background-repeat: no-repeat;
-    background-size: auto auto;
+    background-size: 100% 100%;
+    background-position: center;
 }
 .main
 {
-    display: flexbox;
-    border: 20px;
-    margin: 20px;
-    padding:1px 20% 1px 20%;
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    margin: -10px;
+    padding:0px 20% 0px 20%;
 }
 .logo
 {
@@ -45,10 +47,10 @@ body
 .container
 {
     min-width: 250px;
-    padding: 0 2px 0 2px;
+    padding: 2px;
 }
-.field1,.container{
-    background-image: url(1099191.jpg);
+.container{
+    background-image: url( 1161890.jpg);
     background-size: 100%;
     box-sizing: border-box;
     background-repeat: no-repeat;
@@ -56,6 +58,15 @@ body
     border:0px;
     min-width: 250px;
 }
+/*.field1{
+    background-image: url(1099191.jpg);
+    background-size: 100%;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    border:0px;
+    min-width: 250px;
+}*/
 button
 {
     background-color: #3b82f6;
@@ -65,7 +76,7 @@ button
     color: white;
     border-radius: 10px;
 }
-.field1{
+ .field1{
     background-image: url(1099191.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -76,7 +87,8 @@ button
 }
 .field2
 {
-    display: flexbox;
+    display: flex;
+    flex-direction: column;
     background-color: white;
 }
 .field2 h1
@@ -99,11 +111,9 @@ button
 }
 .column img
 {
-    border: 20px;
-    border-color: #3b82f6;
-    border-radius: 10px;
-    width: 100px;
-    height: 100px;
+ 
+    width: 50%;
+    height: auto;
 }
 .field3
 {
