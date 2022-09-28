@@ -116,3 +116,15 @@ button
     text-align: center;
     font-size: xx-large;
 }
+.footer{
+    text-align: center;
+    color: white;
+    background-color: #1f2937;
+    padding: 10px;
+}
+.fourthpara{
+    background-color: #ffffff;
+    padding: 70px;
+    background-image: url(1161811.jpg);
+    background-size: 100%;
+}
