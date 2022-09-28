@@ -1,6 +1,7 @@
 
 .logo{
-    width: auto;
+    padding-left: 10px;
+    width: 100px;
     height: 50px;
 }
 .link1
@@ -26,14 +27,30 @@
 .container
 {
     background-color:#1f2937;
+    margin: 0 2px 0 2px;
     
+}
+.field1,.container{
+    background-image: url(1099191.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    border:0px;
 }
 button
 {
-    background-color: orange;
+    background-color: #3b82f6;
+    border: none;
+    display: inline-block;
+    padding: 5px 10px;
+    color: white;
     border-radius: 10px;
 }
 .field1{
+    background-image: url(1099191.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
     border: 0px;
     background-color: #1f2937;
     padding: 50px;
@@ -41,19 +58,24 @@ button
 .field2 h1{
     text-align: center;
 }
-div
+.row
 {
     display: flex;
-    background-color: aquamarine;
-  justify-content:space-evenly;
 }
-.contain img{
- width: 100px;
- float: right;
- height: auto;
+.column {
+    flex:30%;
+    text-align: center;
+    padding: 10px;
+    padding-left: 60px;
+}
+.column img
+{
+    width: 100px;
+    height: 100px;
 }
 .field3
 {
-    background-color: #e4e7ec;
+    background-color: #e5e7eb;
     text-align: center;
+    font-size: xx-large;
 }
