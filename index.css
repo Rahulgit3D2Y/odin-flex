@@ -1,8 +1,26 @@
-
-.logo{
+body
+{
+    background-color: #3b82f6;
+    background-image: url(1161810.jpg);
+    background-repeat: no-repeat;
+    background-size: auto auto;
+}
+.main
+{
+    display: flexbox;
+    border: 20px;
+    margin: 20px;
+    padding:1px 20% 1px 20%;
+}
+.logo
+{
     padding-left: 10px;
     width: 100px;
-    height: 50px;
+    height: auto;
+}
+.field1 p
+{
+    color: white;
 }
 .link1
 {
@@ -21,21 +39,22 @@
 }
 .face{
     float: right;
-    height: 200px;
-    width: 500px;
+    height: 50%;
+    width: 50%;
 }
 .container
 {
-    background-color:#1f2937;
-    margin: 0 2px 0 2px;
-    
+    min-width: 250px;
+    padding: 0 2px 0 2px;
 }
 .field1,.container{
     background-image: url(1099191.jpg);
     background-size: 100%;
+    box-sizing: border-box;
     background-repeat: no-repeat;
     background-attachment: scroll;
     border:0px;
+    min-width: 250px;
 }
 button
 {
@@ -55,14 +74,24 @@ button
     background-color: #1f2937;
     padding: 50px;
 }
-.field2 h1{
+.field2
+{
+    display: flexbox;
+    background-color: white;
+}
+.field2 h1
+{
     text-align: center;
 }
 .row
 {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
 }
-.column {
+.column 
+{
     flex:30%;
     text-align: center;
     padding: 10px;
@@ -70,6 +99,9 @@ button
 }
 .column img
 {
+    border: 20px;
+    border-color: #3b82f6;
+    border-radius: 10px;
     width: 100px;
     height: 100px;
 }
