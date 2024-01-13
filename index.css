@@ -1,130 +1,160 @@
-body
-{
+body {
     background-color: transparent;
     background-image: url(1161810.jpg);
     background-repeat: no-repeat;
-    background-position: right bottom, left top;
-    background-size: 100% 100%;
     background-position: center;
-    
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
 }
-.main
-{
+
+.main {
     min-width: 350px;
+    width: 70%;
     display: flex;
     flex-direction: column;
     margin: -10px;
-    padding:0px 20% 0px 20%;
+    padding: 0 20%;
+    gap: 20px;
 }
-.logo
-{
+
+.logo {
     padding-left: 10px;
     width: 100px;
     height: auto;
 }
-.field1 p
-{
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #3333337a;
     color: white;
 }
-.link1
-{
- float:right;
- padding: 10px;
-}
-.link2
-{
-    float: right;
-    padding: 10px;
-}
-.link3
-{
-    float: right;
-    padding: 10px;
-}
-.face{
-    float: right;
-    height: 50%;
-    width: 50%;
-}
-.container
-{
-    min-width: 250px;
-    padding: 2px;
-    background-image: url( 1161890.jpg);
-    background-size: 100%;
-    box-sizing: border-box;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    border:0px;
-    min-width: 250px;
-}
-.container a
-{
-    color: red;
-}
-button
-{
-    background-color: #3b82f6;
-    border: none;
-    display: inline-block;
-    padding: 5px 10px;
+
+nav a {
     color: white;
-    border-radius: 10px;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #3b83f69f;
+    border-radius: 1rem;
+    
 }
- .field1{
+
+main{
+    display: grid;
+    gap: 20px;
+}
+
+.field1 {
     background-image: url(1099191.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: scroll;
-    border: 0px;
+    border: 0;
     background-color: #1f2937;
     padding: 50px;
-}
-.field2
-{
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-}
-.field2 h1
-{
-    text-align: center;
-}
-.row
-{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    border-radius: 10px;
 
 }
-.column 
-{
-    flex:30%;
+
+.field1 p {
+    color: rgb(62, 18, 218);
+    font-weight: bold;
+}
+.field1 a{
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-color: rgb(12, 126, 18);
+    color: white;
+}
+.face {
+    float: right;
+    height: 50%;
+    width: 50%;
+}
+
+.button1 {
+    background-color: #3b82f6;
+    border: none;
+    padding: 10px 20px;
+    display: inline-block;
+    color: white;
+    border-radius: 10px;
+}
+
+.field2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background:linear-gradient(rgba(255, 255, 255, 0.493),rgba(255, 255, 255, 0.541));
+    border-radius: 10px;
+}
+
+.field2 h1 {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between; /* Adjust spacing between columns */
+}
+
+.column {
+    flex: 0 0 23%; /* Adjust as needed, this gives some space between columns */
     text-align: center;
     padding: 10px;
-    padding-left: 60px;
+    box-sizing: border-box;
 }
-.column img
-{
- 
-    width: 50%;
+
+.column img {
+    width: 100%;
     height: auto;
 }
-.field3
-{
-    background-color: #e5e7eb;
+
+.field3 {
+    background-color: #e5e7ebc2;
     text-align: center;
     font-size: xx-large;
+    border-radius: 10px;
+
 }
-.footer{
+
+.fourthpara {
+    background:url(1161811.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    padding: 70px;
+}
+
+
+.footer {
     text-align: center;
     color: white;
-    background-color: #1f2937;
+    background-color: #1f2937c9;
     padding: 10px;
+    border-radius: 20px 20px 0 0;
 }
-.fourthpara{
-    background-color: #ffffff;
-    padding: 70px;
-    background-image: url(1161811.jpg);
+
+.container {
+    min-width: 250px;
+    padding: 2px;
+    background-image: url(1161890.jpg);
     background-size: 100%;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    border: 0;
+    min-width: 250px;
+}
+
+.container a {
+    color: red; /* Make sure this color contrasts well with the background */
 }
